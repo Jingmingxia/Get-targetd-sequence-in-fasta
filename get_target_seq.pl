@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 use strict;
 use warnings;
-
+# by jmxia
 #The script is to get the targeted seq of assigned length
 if(@ARGV !=5){
 print "Usage:perl $0 in.fasta id start end out.fasta\n";
