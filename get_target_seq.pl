@@ -1,12 +1,12 @@
 #!/usr/bin/perl 
 use strict;
 use warnings;
-# by jmxia
+# by xjm
 #The script is to get the targeted seq of assigned length
+
 if(@ARGV !=5){
 print "Usage:perl $0 in.fasta id start end out.fasta\n";
 }
-
 
 my %seq_hash;
 open (IN,$ARGV[0])||die $!;
